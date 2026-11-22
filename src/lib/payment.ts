@@ -20,3 +20,4 @@ export function createPaymentDetails(amountUsd: number): PaymentDetails {
     btcAddress: BTC_ADDRESS,
   };
 }
+

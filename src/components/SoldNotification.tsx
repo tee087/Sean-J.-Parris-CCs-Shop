@@ -84,3 +84,4 @@ export function SoldNotification({ productName, price, location, balance, onClos
     </div>
   );
 }
+

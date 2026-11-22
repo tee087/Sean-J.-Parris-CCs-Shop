@@ -53,3 +53,4 @@ export function useCountUp(end: number, duration = 2000, start = 0) {
 
   return { count, startAnimation: () => setIsAnimating(true) };
 }
+

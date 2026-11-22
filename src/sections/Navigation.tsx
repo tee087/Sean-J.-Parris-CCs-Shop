@@ -110,13 +110,13 @@ export function Navigation() {
   <div className="fixed top-0 left-0 right-0 z-[60] bg-gradient-to-r from-green-900 via-green-800 to-green-900 border-b border-green-500/30 overflow-hidden h-8 flex items-center">
     <div className="whitespace-nowrap animate-marquee">
       <span className="mx-8 text-green-200 text-xs font-mono">
-        🔥 TEST RUN CARDS - DM ADMIN VIA TELEGRAM @cardvaultstore 🔥 | AMOUNT FOR A TEST RUN CARD IS $15
+        🔥 TEST RUN CARDS - DM ADMIN VIA TELEGRAM @MastahCredit 🔥 | AMOUNT FOR A TEST RUN CARD IS $15
       </span>
       <span className="mx-8 text-green-200 text-xs font-mono">
-        🔥 TEST RUN CARDS - DM ADMIN VIA TELEGRAM @cardvaultstore 🔥 | AMOUNT FOR A TEST RUN CARD IS $15
+        🔥 TEST RUN CARDS - DM ADMIN VIA TELEGRAM @MastahCredit 🔥 | AMOUNT FOR A TEST RUN CARD IS $15
       </span>
       <span className="mx-8 text-green-200 text-xs font-mono">
-        🔥 TEST RUN CARDS - DM ADMIN VIA TELEGRAM @cardvaultstore 🔥 | AMOUNT FOR A TEST RUN CARD IS $15
+        🔥 TEST RUN CARDS - DM ADMIN VIA TELEGRAM @MastahCredit 🔥 | AMOUNT FOR A TEST RUN CARD IS $15
       </span>
     </div>
     <style>{`
@@ -329,7 +329,7 @@ export function Navigation() {
 
             {/* Support Button */}
             <a
-              href="https://t.me/cardvaultstore"
+              href="https://t.me/MastahCredit"
               target="_blank"
               rel="noopener noreferrer"
               className="hidden md:flex items-center gap-1.5 px-3 py-1.5 text-xs text-green-600 hover:text-green-400 transition-colors rounded border border-green-500/30 hover:border-green-500/50 bg-green-500/5"
@@ -397,3 +397,4 @@ export function Navigation() {
     </>
   );
 }
+

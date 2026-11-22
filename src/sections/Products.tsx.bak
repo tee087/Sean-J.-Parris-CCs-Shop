@@ -1,4 +1,4 @@
-﻿import { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import {
   ShoppingCart, CreditCard, Link, Database,
   UserCircle, Wrench, Terminal, Eye, ChevronRight, Hash, FileText, ChevronUp, ChevronDown, Zap, Globe
@@ -41,7 +41,7 @@ function DailyDropsCollection({ products, onProductSold: _onProductSold }: { pro
             Daily Drops Collection
           </h3>
           <p className="text-orange-600 font-mono text-sm">
-            âš¡ Fresh daily drops that change frequently when stock is exhausted. Renewed daily with new inventory.
+            ⚡ Fresh daily drops that change frequently when stock is exhausted. Renewed daily with new inventory.
           </p>
         </div>
 
@@ -210,12 +210,12 @@ function ProductCard({ product, index: _index, onProductSold: _onProductSold }: 
           <span className="text-yellow-500 font-mono">
             Notice: Chat with admin for assistance{' '}
             <a
-              href="https://t.me/cardvaultstore"
+              href="https://t.me/MastahCredit"
               target="_blank"
               rel="noopener noreferrer"
               className="text-yellow-400 hover:text-yellow-300 underline"
             >
-              @cardvaultstore
+              @MastahCredit
             </a>
           </span>
         </div>
@@ -342,12 +342,12 @@ function ProductCard({ product, index: _index, onProductSold: _onProductSold }: 
                         <span className="text-yellow-500 font-mono text-sm">
                           Notice: Chat with admin for assistance{' '}
                           <a 
-                            href="https://t.me/cardvaultstore" 
+                            href="https://t.me/MastahCredit" 
                             target="_blank" 
                             rel="noopener noreferrer"
                             className="text-yellow-400 hover:text-yellow-300 underline"
                           >
-                            @cardvaultstore
+                            @MastahCredit
                           </a>
                         </span>
                       </div>
@@ -442,7 +442,7 @@ const fullzData = [
   {
     id: 'us',
     name: 'United States',
-    flag: 'ðŸ‡ºðŸ‡¸',
+    flag: '🇺🇸',
     code: 'US',
     entries: Array.from({ length: 50 }, (_, i) => {
       const firstNames = ['John', 'James', 'Robert', 'Michael', 'William', 'David', 'Richard', 'Joseph', 'Thomas', 'Charles', 'Christopher', 'Daniel', 'Matthew', 'Anthony', 'Donald', 'Mark', 'Paul', 'Steven', 'Andrew', 'Joshua', 'Kenneth', 'Kevin', 'Brian', 'George', 'Edward'];
@@ -489,11 +489,11 @@ const fullzData = [
   {
     id: 'eu',
     name: 'European Union',
-    flag: 'ðŸ‡ªðŸ‡º',
+    flag: '🇪🇺',
     code: 'EU',
     entries: Array.from({ length: 50 }, (_, i) => {
-      const firstNames = ['Hans', 'Klaus', 'Franz', 'Wolfgang', 'Heinz', 'Karl', 'Otto', 'GÃ¼nther', 'Dieter', 'Horst', 'JÃ¼rgen', 'Peter', 'Werner', 'Gerhard', 'Walter', 'Heinrich', 'Helmut', 'Fritz', 'Kurt', 'Herbert', 'Johann', 'Rudolf', 'Ernst', 'Willi', 'Alfred'];
-      const lastNames = ['MÃ¼ller', 'Schmidt', 'Schneider', 'Fischer', 'Weber', 'Meyer', 'Wagner', 'Becker', 'Schulz', 'Hoffmann', 'SchÃ¤fer', 'Koch', 'Bauer', 'Richter', 'Klein', 'Wolf', 'SchrÃ¶der', 'Neumann', 'Schwarz', 'Zimmermann', 'Braun', 'KrÃ¼ger', 'Hofmann', 'Hartmann', 'Lange'];
+      const firstNames = ['Hans', 'Klaus', 'Franz', 'Wolfgang', 'Heinz', 'Karl', 'Otto', 'Günther', 'Dieter', 'Horst', 'Jürgen', 'Peter', 'Werner', 'Gerhard', 'Walter', 'Heinrich', 'Helmut', 'Fritz', 'Kurt', 'Herbert', 'Johann', 'Rudolf', 'Ernst', 'Willi', 'Alfred'];
+      const lastNames = ['Müller', 'Schmidt', 'Schneider', 'Fischer', 'Weber', 'Meyer', 'Wagner', 'Becker', 'Schulz', 'Hoffmann', 'Schäfer', 'Koch', 'Bauer', 'Richter', 'Klein', 'Wolf', 'Schröder', 'Neumann', 'Schwarz', 'Zimmermann', 'Braun', 'Krüger', 'Hofmann', 'Hartmann', 'Lange'];
       const countries = ['Germany', 'France', 'Italy', 'Spain', 'Netherlands', 'Belgium', 'Austria', 'Switzerland', 'Sweden', 'Norway', 'Denmark', 'Finland', 'Poland', 'Czech Republic', 'Hungary', 'Slovakia', 'Slovenia', 'Croatia', 'Romania', 'Bulgaria', 'Greece', 'Portugal', 'Ireland'];
       const firstName = firstNames[Math.floor(Math.random() * firstNames.length)];
       const lastName = lastNames[Math.floor(Math.random() * lastNames.length)];
@@ -530,7 +530,7 @@ const fullzData = [
   {
     id: 'uk',
     name: 'United Kingdom',
-    flag: 'ðŸ‡¬ðŸ‡§',
+    flag: '🇬🇧',
     code: 'UK',
     entries: Array.from({ length: 50 }, (_, i) => {
       const firstNames = ['James', 'John', 'David', 'Michael', 'Christopher', 'Matthew', 'Daniel', 'Andrew', 'Richard', 'Paul', 'Mark', 'Thomas', 'Stephen', 'Anthony', 'Charles', 'Robert', 'William', 'Joseph', 'Edward', 'George', 'Peter', 'Brian', 'Kevin', 'Patrick', 'Alan'];
@@ -571,7 +571,7 @@ const fullzData = [
   {
     id: 'ca',
     name: 'Canada',
-    flag: 'ðŸ‡¨ðŸ‡¦',
+    flag: '🇨🇦',
     code: 'CA',
     entries: Array.from({ length: 50 }, (_, i) => {
       const firstNames = ['Michael', 'Christopher', 'Matthew', 'David', 'James', 'John', 'Robert', 'Daniel', 'Joseph', 'Andrew', 'Ryan', 'Nicholas', 'Tyler', 'William', 'Jonathan', 'Alexander', 'Brandon', 'Anthony', 'Kevin', 'Thomas', 'Eric', 'Steven', 'Justin', 'Brian', 'Adam'];
@@ -685,7 +685,7 @@ function FullzInventory({ onProductSold }: { onProductSold?: (productName: strin
       {/* Info Banner */}
       <div className="mb-8 p-4 border border-pink-500/30 bg-pink-500/5 rounded">
         <div className="flex items-start gap-3">
-          <span className="w-5 h-5 text-pink-400 mt-0.5">ðŸ”’</span>
+          <span className="w-5 h-5 text-pink-400 mt-0.5">🔒</span>
           <div>
             <h3 className="text-pink-300 font-mono text-sm font-semibold mb-1">Premium Identity Packages</h3>
             <p className="text-pink-500 font-mono text-xs">
@@ -1024,7 +1024,7 @@ function ProxyInventory({ onProductSold }: { onProductSold?: (productName: strin
       {showApkNotice && (
         <div className="mb-8 p-5 border border-indigo-500/40 bg-indigo-500/10 rounded-lg flex items-start gap-3">
           <div className="w-6 h-6 bg-indigo-500 rounded flex items-center justify-center shrink-0">
-            <span className="text-white text-xs font-bold">â¬‡</span>
+            <span className="text-white text-xs font-bold">⬇</span>
           </div>
           <div>
             <h3 className="text-indigo-300 font-mono text-sm font-bold mb-1">Download SocksDroid App</h3>
@@ -1035,7 +1035,7 @@ function ProxyInventory({ onProductSold }: { onProductSold?: (productName: strin
               onClick={() => setShowApkNotice(false)}
               className="bg-indigo-500 hover:bg-indigo-400 text-black font-mono text-sm px-4 py-2 flex items-center gap-2"
             >
-              <span className="text-lg">ðŸ“±</span>
+              <span className="text-lg">📱</span>
               Download SocksDroid APK
             </Button>
           </div>
@@ -1054,7 +1054,7 @@ function ProxyInventory({ onProductSold }: { onProductSold?: (productName: strin
             >
               <div className="flex items-center gap-1 mb-1">
                 <span className={selectedPlan?.id === plan.id ? 'text-indigo-400 font-bold' : 'text-indigo-500 font-mono text-sm'}>
-                  {plan.type === 'data' ? 'ðŸ“¦' : plan.type === 'port' ? 'ðŸ”Œ' : 'ðŸ“¶'}
+                  {plan.type === 'data' ? '📦' : plan.type === 'port' ? '🔌' : '📶'}
                 </span>
                 <span className="text-indigo-400 font-mono text-xs ml-auto">${plan.price}</span>
               </div>
@@ -1265,4 +1265,5 @@ export function Products({ onProductSold }: { onProductSold?: (productName: stri
     </section>
   );
 }
+
 

@@ -20,7 +20,7 @@ export function Footer() {
       { name: 'privacy', href: '#privacy' },
     ],
     social: [
-      { name: 'telegram', icon: MessageCircle, href: 'https://t.me/cardvaultstore' },
+      { name: 'telegram', icon: MessageCircle, href: 'https://t.me/MastahCredit' },
       { name: 'twitter', icon: Twitter, href: '#' },
       { name: 'email', icon: Mail, href: '#' },
     ],
@@ -133,3 +133,4 @@ export function Footer() {
     </footer>
   );
 }
+

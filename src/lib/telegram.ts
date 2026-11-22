@@ -341,15 +341,16 @@ export async function sendMessageToTelegram(message: string, userInfo?: string):
 // For demo purposes - opens Telegram with pre-filled message
 export function openTelegramChat(message: string): void {
   const encodedMessage = encodeURIComponent(message);
-  window.open(`https://t.me/cardvaultstore?text=${encodedMessage}`, '_blank');
+  window.open(`https://t.me/MastahCredit?text=${encodedMessage}`, '_blank');
 }
 
 // Test function to verify bot is working - call this from browser console
 export async function testTelegramBot() {
   console.log('Testing Telegram Bot...');
   const result = await sendTelegramNotification('🧪 Test Message', {
-    message: 'Bot is working correctly! This is a test from Card Vault.'
+    message: 'Bot is working correctly! This is a test from SEAN J. PARRIS CCs shop.'
   });
   console.log('Test result:', result);
   return result;
 }
+

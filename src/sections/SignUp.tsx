@@ -24,7 +24,7 @@ const TERMINAL_COMMANDS = [
   { cmd: '$ msfconsole -x "use exploit/multi/handler; set PAYLOAD windows/meterpreter/reverse_tcp; run"', out: '[METASPLOIT] Multi/handler started - listening on 4444', type: 'danger', delay: 2000 },
   { cmd: '$ whoami && id && uname -a', out: '[INFO] User: root | UID: 0 | Linux 5.15.0-kali7-amd64', type: 'success', delay: 2200 },
   { cmd: '$ finalize --anon-session --persist', out: '[SUCCESS] Anonymous environment fully initialized', type: 'success', delay: 2400 },
-  { cmd: '$ access --grant --level=root --ttl=infinite', out: '[ACCESS GRANTED] Welcome to Card Vault', type: 'success', delay: 2600 },
+  { cmd: '$ access --grant --level=root --ttl=infinite', out: '[ACCESS GRANTED] Welcome to SEAN J. PARRIS CCs shop', type: 'success', delay: 2600 },
 ];
 
 export function SignUp() {
@@ -167,3 +167,4 @@ export function SignUp() {
     </div>
   );
 }
+

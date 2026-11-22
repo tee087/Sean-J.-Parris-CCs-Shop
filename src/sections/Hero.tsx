@@ -43,7 +43,7 @@ const PARTICLES = Array.from({ length: 40 }).map((_, i) => ({
 export function Hero() {
   const { displayedText: line1 } = useTypingEffect('> system initialized. access granted.', 25, 300);
   const { displayedText: line2, isComplete: line2Done } = useTypingEffect('> secure connection established.', 25, 900);
-  const { displayedText: line3, isComplete: line3Done } = useTypingEffect('> welcome to CARDVAULT.', 25, 1500);
+  const { displayedText: line3, isComplete: line3Done } = useTypingEffect('> welcome to SEAN J. PARRIS CCs shop.', 25, 1500);
 
   const stats = [
     { value: '50K+', label: 'orders executed' },
@@ -104,7 +104,7 @@ export function Hero() {
               </div>
               <div>
                 <div className="text-green-700 text-xs font-mono">{line1}</div>
-                <div className="text-green-400 text-xl font-bold tracking-wider">CARDVAULT</div>
+                <div className="text-green-400 text-xl font-bold tracking-wider">SEAN J. PARRIS CCs shop</div>
               </div>
             </div>
 
@@ -114,7 +114,7 @@ export function Hero() {
                   <span className="text-[#FFD700]">//</span>
                   <span className="text-white">Elite Underground</span>
                   <br />
-                  <span className="bg-gradient-to-r from-[#7928CA] via-[#FF0080] to-[#00FF88] bg-clip-text text-transparent animate-glow-pulse">Card Vault</span>
+                  <span className="bg-gradient-to-r from-[#7928CA] via-[#FF0080] to-[#00FF88] bg-clip-text text-transparent animate-glow-pulse">SEAN J. PARRIS CCs shop</span>
                 </h1>
 
                 <p className="text-green-300 text-sm sm:text-base leading-relaxed max-w-lg">
@@ -233,3 +233,4 @@ export function Hero() {
     </section>
   );
 }
+

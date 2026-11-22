@@ -346,3 +346,4 @@ const showRandomPurchase = () => {
 }
 
 export default App;
+

@@ -62,3 +62,4 @@ export interface Order {
 }
 
 export type Category = 'all' | 'cards' | 'ccs' | 'logs' | 'accounts' | 'tools' | 'fullz' | 'daily-drops' | 'spamming-course' | 'hacking-course' | 'proxies' | 'dumps' | 'cvv' | 'rdp' | 'shells' | 'smtp' | 'stealers' | 'docs' | 'drops' | 'giftcards' | 'streaming';
+

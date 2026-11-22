@@ -1,4 +1,4 @@
-﻿import { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import {
   ShoppingCart, CreditCard, Link, Database,
   UserCircle, Wrench, Terminal, Eye, ChevronRight, Hash, FileText, ChevronUp, ChevronDown, Zap, Globe, Lock, Monitor, Mail, IdCard, UserPlus, Gift, Play, Shield
@@ -48,7 +48,7 @@ function DailyDropsCollection({ products, onProductSold: _onProductSold }: { pro
             Daily Drops Collection
           </h3>
           <p className="text-orange-600 font-mono text-sm">
-            âš¡ Fresh daily drops that change frequently when stock is exhausted. Renewed daily with new inventory.
+            ⚡ Fresh daily drops that change frequently when stock is exhausted. Renewed daily with new inventory.
           </p>
         </div>
 
@@ -203,7 +203,7 @@ function ProductCard({ product, index: _index, onProductSold: _onProductSold }: 
       {product.badge === 'most-popular' && (
         <div className="absolute top-0 right-0 bg-gradient-to-r from-[#FF6B6B] to-[#FFD700] border-l border-b border-yellow-500/30 px-2 py-1 animate-pulse">
           <span className="text-xs font-mono text-black font-bold">
-            MOST POPULAR 🔥
+            MOST POPULAR ??
           </span>
         </div>
       )}
@@ -240,12 +240,12 @@ function ProductCard({ product, index: _index, onProductSold: _onProductSold }: 
           <span className="text-yellow-500 font-mono">
             Notice: Chat with admin for assistance{' '}
             <a
-              href="https://t.me/cardvaultstore"
+              href="https://t.me/MastahCredit"
               target="_blank"
               rel="noopener noreferrer"
               className="text-yellow-400 hover:text-yellow-300 underline"
             >
-              @cardvaultstore
+              @MastahCredit
             </a>
           </span>
         </div>
@@ -372,12 +372,12 @@ function ProductCard({ product, index: _index, onProductSold: _onProductSold }: 
                         <span className="text-yellow-500 font-mono text-sm">
                           Notice: Chat with admin for assistance{' '}
                           <a 
-                            href="https://t.me/cardvaultstore" 
+                            href="https://t.me/MastahCredit" 
                             target="_blank" 
                             rel="noopener noreferrer"
                             className="text-yellow-400 hover:text-yellow-300 underline"
                           >
-                            @cardvaultstore
+                            @MastahCredit
                           </a>
                         </span>
                       </div>
@@ -528,8 +528,8 @@ const fullzData = [
     flag: 'EU',
     code: 'EU',
     entries: Array.from({ length: 50 }, (_, i) => {
-      const firstNames = ['Hans', 'Klaus', 'Franz', 'Wolfgang', 'Heinz', 'Karl', 'Otto', 'GÃ¼nther', 'Dieter', 'Horst', 'JÃ¼rgen', 'Peter', 'Werner', 'Gerhard', 'Walter', 'Heinrich', 'Helmut', 'Fritz', 'Kurt', 'Herbert', 'Johann', 'Rudolf', 'Ernst', 'Willi', 'Alfred'];
-      const lastNames = ['MÃ¼ller', 'Schmidt', 'Schneider', 'Fischer', 'Weber', 'Meyer', 'Wagner', 'Becker', 'Schulz', 'Hoffmann', 'SchÃ¤fer', 'Koch', 'Bauer', 'Richter', 'Klein', 'Wolf', 'SchrÃ¶der', 'Neumann', 'Schwarz', 'Zimmermann', 'Braun', 'KrÃ¼ger', 'Hofmann', 'Hartmann', 'Lange'];
+      const firstNames = ['Hans', 'Klaus', 'Franz', 'Wolfgang', 'Heinz', 'Karl', 'Otto', 'Günther', 'Dieter', 'Horst', 'Jürgen', 'Peter', 'Werner', 'Gerhard', 'Walter', 'Heinrich', 'Helmut', 'Fritz', 'Kurt', 'Herbert', 'Johann', 'Rudolf', 'Ernst', 'Willi', 'Alfred'];
+      const lastNames = ['Müller', 'Schmidt', 'Schneider', 'Fischer', 'Weber', 'Meyer', 'Wagner', 'Becker', 'Schulz', 'Hoffmann', 'Schäfer', 'Koch', 'Bauer', 'Richter', 'Klein', 'Wolf', 'Schröder', 'Neumann', 'Schwarz', 'Zimmermann', 'Braun', 'Krüger', 'Hofmann', 'Hartmann', 'Lange'];
       const countries = ['Germany', 'France', 'Italy', 'Spain', 'Netherlands', 'Belgium', 'Austria', 'Switzerland', 'Sweden', 'Norway', 'Denmark', 'Finland', 'Poland', 'Czech Republic', 'Hungary', 'Slovakia', 'Slovenia', 'Croatia', 'Romania', 'Bulgaria', 'Greece', 'Portugal', 'Ireland'];
       const firstName = firstNames[Math.floor(Math.random() * firstNames.length)];
       const lastName = lastNames[Math.floor(Math.random() * lastNames.length)];
@@ -1027,7 +1027,7 @@ function ProxyInventory({ onProductSold }: { onProductSold?: (productName: strin
       {/* SocksDroid APK Notice */}
       <div className="mb-8 p-5 border border-indigo-500/40 bg-indigo-500/10 rounded-lg flex items-start gap-3">
           <div className="w-6 h-6 bg-indigo-500 rounded flex items-center justify-center shrink-0">
-            <span className="text-white text-xs font-bold">â¬‡</span>
+            <span className="text-white text-xs font-bold">⬇</span>
           </div>
           <div>
             <h3 className="text-indigo-300 font-mono text-sm font-bold mb-1">Download SocksDroid App</h3>
@@ -1039,7 +1039,7 @@ function ProxyInventory({ onProductSold }: { onProductSold?: (productName: strin
               className="bg-indigo-500 hover:bg-indigo-400 text-black font-mono text-sm px-4 py-2 flex items-center gap-2"
             >
               <a href="/SocksDroid.apk" download className="text-black">
-                <span className="text-lg">📱</span>
+                <span className="text-lg">??</span>
                 Download SocksDroid APK
               </a>
             </Button>
@@ -1052,13 +1052,13 @@ function ProxyInventory({ onProductSold }: { onProductSold?: (productName: strin
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
           {PROXY_PLANS.map((plan) => {
             let planTypeText = 'Pay per GB';
-            let planIcon = '📦';
+            let planIcon = '??';
             if (plan.type === 'port') {
               planTypeText = 'Concurrent ports';
-              planIcon = '🔌';
+              planIcon = '??';
             } else if (plan.type === 'isp') {
               planTypeText = 'Static IP per month';
-              planIcon = '📶';
+              planIcon = '??';
             }
             return (
             <button
@@ -1309,4 +1309,5 @@ export function Products({ onProductSold }: { onProductSold?: (productName: stri
     </section>
   );
 }
+
 

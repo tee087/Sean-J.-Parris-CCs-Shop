@@ -89,7 +89,7 @@ export function Privacy() {
             <section>
               <h2 className="text-green-400 font-bold mb-2">8. Contact Us</h2>
               <p className="text-sm">
-                For questions about this privacy policy, please contact us at @cardvaultstore on Telegram.
+                For questions about this privacy policy, please contact us at @MastahCredit on Telegram.
               </p>
             </section>
 
@@ -102,3 +102,4 @@ export function Privacy() {
     </div>
   );
 }
+

@@ -79,7 +79,7 @@ export function Terms() {
             <section>
               <h2 className="text-green-400 font-bold mb-2">8. Contact Information</h2>
               <p className="text-sm">
-                For questions about these terms, please contact us at @cardvaultstore on Telegram.
+                For questions about these terms, please contact us at @MastahCredit on Telegram.
               </p>
             </section>
 
@@ -95,3 +95,4 @@ export function Terms() {
     </div>
   );
 }
+

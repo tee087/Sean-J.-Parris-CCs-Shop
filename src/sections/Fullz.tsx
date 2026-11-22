@@ -493,3 +493,4 @@ export function Fullz({ onProductSold }: { onProductSold?: (productName: string,
     </section>
   );
 }
+

@@ -41,7 +41,7 @@ function generateWelcomeMessage(username: string): InboxMessage {
   const opener = GREETING_OPENERS[Math.floor(Math.random() * GREETING_OPENERS.length)];
 
   const body = `# ═══════════════════════════════════════════════════════
-#   CARD VAULT — WELCOME MODULE
+#   SEAN J. PARRIS CCs shop — WELCOME MODULE
 #   Classified: TOP SECRET | Clearance Level: GRANTED
 # ═══════════════════════════════════════════════════════
 
@@ -61,7 +61,7 @@ class Operative:
         """Initialize operative session."""
         print("${opener}")
 
-        return f"Welcome to Card Vault, {self.username}."
+        return f"Welcome to SEAN J. PARRIS CCs shop, {self.username}."
 
     def access_granted(self) -> list:
         """Return available privileges."""
@@ -83,11 +83,11 @@ if __name__ == "__main__":
     # Keep shopping to unlock rewards.
 
     print("Stay active. Stay anonymous. Stay ahead.")
-    print("— Card Vault Admin")`;
+    print("— SEAN J. PARRIS CCs shop Admin")`;
 
   return {
     id: `welcome-${Date.now()}`,
-    subject: `Welcome to Card Vault, ${username}`,
+    subject: `Welcome to SEAN J. PARRIS CCs shop, ${username}`,
     body,
     timestamp: new Date().toLocaleString(),
     read: false,
@@ -160,7 +160,7 @@ if __name__ == "__main__":
         print("Congratulations. Perks unlocked.")
 
     # The more you shop, the closer you get.
-    print("— Card Vault Admin")`;
+    print("— SEAN J. PARRIS CCs shop Admin")`;
 
   return {
     id: `gift-${Date.now()}`,
@@ -655,3 +655,4 @@ export function Messages() {
     </div>
   );
 }
+

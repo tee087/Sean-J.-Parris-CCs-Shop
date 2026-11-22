@@ -100,3 +100,4 @@ export function checkTermsAccepted(): boolean {
   if (typeof window === 'undefined') return false;
   return localStorage.getItem(TERMS_KEY) === 'true';
 }
+

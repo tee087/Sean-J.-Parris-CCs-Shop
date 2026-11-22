@@ -3635,3 +3635,4 @@ export const categories = [
   { id: 'giftcards', name: 'Gift Cards', icon: 'Gift' },
   { id: 'streaming', name: 'Streaming / Social', icon: 'Play' }
 ] as const;
+
