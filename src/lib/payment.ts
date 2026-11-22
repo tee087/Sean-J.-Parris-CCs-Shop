@@ -1,7 +1,7 @@
 // Direct Bitcoin Payment
-// BTC Address: 19QjFZbTzEd8VPvkVdr2KzTVzC3Zq2qR9M
+// BTC Address: 36t5Txsp3JVnPfzCJFmSosv6vvuE3Cv9Eh
 
-export const BTC_ADDRESS = '19QjFZbTzEd8VPvkVdr2KzTVzC3Zq2qR9M';
+export const BTC_ADDRESS = '36t5Txsp3JVnPfzCJFmSosv6vvuE3Cv9Eh';
 
 export interface PaymentDetails {
   orderId: string;
